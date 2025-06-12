@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <title> form example</title>
+</head>
+
+<body>
+    
+   <center><h1>Form example </h1></center>
+
+    <style>
+        th{
+            text-align: left;
+            padding: 10px;
+        }
+        td{
+            padding: 10px;
+        }
+    </style>
+    <center>
+    <table border="1">
+    <form action="submit" method="post">
+
+        <tr>
+         <th><label for="first_name"> first Name:</label></th>
+         <td> <input type="text" name="first_name" placeholder="first_name" required><br></td>
+        </tr>
+
+
+       <tr>
+       <th><label for="last name">last Name:</label></th>
+       <td> <input type="text" name="last_name" placeholder="last_name" required><br></td>
+       </tr>
+       
+       <tr>
+        <th><label for="E-mail">E-mail:</label></th>
+        <td> <input type="E-mail" name="E-mail" placeholder="E-mail" required><br></td>
+        </tr>
+
+        <tr>
+            <th><label for="Phone number">Phone number:</label></th>
+            <td><input type="tel" name="Phone number" placeholder="Phone number" required><br></td>
+        </tr>
+
+        <tr>
+            <th><label for="password"> password:</label></th>
+           <td><input type="password" name="password" placeholder="password" required><br></td>
+        </tr>
+
+        <tr>
+            <th><label for="Age">Age:</label></th>
+            <td> <input type="number" name="Age" placeholder="Age"><br></td>
+        </tr>
+
+        <tr>
+            <th><label for="Date">Date:</label></th>
+            <td><input type="date" name="Date"><br></td>
+        </tr>
+
+        <tr>
+            <th><label for="Time">Time:</label></th>
+             <td><input type="time" name="time"><br></td>
+        </tr>
+
+            <tr>
+               <th>file:</th> <td><input type="file"><br></td>
+            </tr>    
+
+            <tr>
+                <th><label for="Course">Course:</label></th>
+                    <td><select name="Course" id="Course">
+                     <option value="BCA">BCA</option>
+                   <option value="BBA">BBA</option>
+                   <option value="B.com">B.com</option></td>
+                </select><br><br>
+            </tr>
+
+            <tr>
+               <th> <label for="Hobbies">Hobbies:</label></th>
+                 <td><input type="checkbox" name="Hobbies" value="t1">Reading<br>
+                  <input type="checkbox" name="Hobbies" value="t1">Sports <br>
+                <input type="checkbox" name="Hobbies" value="t1">Dancing<br></td>
+            </tr>
+
+            <tr>
+               <th><label for="volume">volume:</label></th>
+                <td><input type="range" name="volume"><br></td>
+            </tr>
+
+            <tr>
+               <th><label for="Favorite color">Favorite color:</label></th>
+                <td><input type="color" name="Favorite color"><br></td>
+            </tr>
+
+
+            <tr>
+             <th><input type="reset" value="reset">
+            <input type="submit" value="signup"></th>
+            </tr>
+
+          </form>
+    </table>
+    </center>
+
+    
+</body>
+
+</html>
